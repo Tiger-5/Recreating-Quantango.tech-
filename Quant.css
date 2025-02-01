@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(13, 13, 13, 0.98);
+    font-family: Geist-Regular;
+    color: white;
+}
+
+@font-face {
+    font-family: Geist-Regular;
+    src: url(Geist-v1.4.01/otf/Geist-Regular.otf);
+}
+
+@font-face {
+    font-family: Geist-Thin;
+    src: url(Geist-v1.4.01/otf/Geist-Thin.otf);
+}
+
+.logo{
+    font-family: Geist-Thin;
+    color: white;
+}
+
