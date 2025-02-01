@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(13, 13, 13, 0.98);
+    background-color: rgba(0, 0, 0, 0.98);
     font-family: Geist-Regular;
     color: white;
 }
@@ -14,8 +14,56 @@ body{
     src: url(Geist-v1.4.01/otf/Geist-Thin.otf);
 }
 
+@font-face{
+    font-family: Geist-Bold;
+    src: url(Geist-v1.4.01/otf/Geist-Bold.otf);
+}
+
 .logo{
     font-family: Geist-Thin;
     color: white;
+    cursor: pointer;
 }
 
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+li a{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+    font-family: Geist-Thin;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.teambut{
+    height: 45px;    
+    width: 125px;
+    border-radius: 23px;
+    font-family: Geist-Regular;
+    font-size: 14px;
+    transition: all 0.2s;
+    border: none;
+}
+
+.teambut:hover{
+    background-color: #01eab2;
+    color: rgb(0, 0, 0);
+    border: 1pz solid black;
+    box-shadow: rgba(1, 234, 178, 0.4) 0px 0px 30px;
+}
