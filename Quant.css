@@ -2,6 +2,8 @@ body{
     background-color: rgba(0, 0, 0, 0.98);
     font-family: Geist-Regular;
     color: white;
+    padding: 0%;
+    margin: 0%;
 }
 
 @font-face {
@@ -66,4 +68,37 @@ header{
     color: rgb(0, 0, 0);
     border: 1pz solid black;
     box-shadow: rgba(1, 234, 178, 0.4) 0px 0px 30px;
+}
+
+/* Nav Section  - -- - - -  -- - - - -*/
+
+.herotext01{
+    font-family: Geist-Thin;
+    font-size: 18px;  
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 15px; 
+}
+
+.herotext02{
+    font-family: Geist-Regular;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.herotext03{
+    font-family: Geist-thin;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.FlexHero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
