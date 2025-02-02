@@ -3,7 +3,7 @@ body{
     font-family: Geist-Regular;
     color: white;
     padding: 0%;
-    margin: 0%;
+    margin: 0%; 
 }
 
 @font-face {
@@ -98,7 +98,13 @@ header{
 
 .FlexHero{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
-
 }
+
+.herodiv{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+
