@@ -4,6 +4,7 @@ body{
     color: white;
     padding: 0%;
     margin: 0%; 
+
 }
 
 @font-face {
@@ -59,7 +60,7 @@ header{
     border-radius: 23px;
     font-family: Geist-Regular;
     font-size: 14px;
-    transition: all 0.2s;
+    transition: all 0.3s;
     border: none;
 }
 
@@ -103,8 +104,44 @@ header{
 }
 
 .herodiv{
-    margin-top: 7%;
+    margin-top: 10%;
     margin-left: 5%;
+    margin-bottom: 15%;
 }
 
+.aboutsec{
+    background-image: linear-gradient(to bottom, black, rgba(19, 19, 19, 0.842));
+    height: 1000px;
+}
+
+.imgdiv{
+    border: 1px solid rgb(109, 218, 95);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+#img01{
+    width: 100px;
+    height: 100px;
+}
+
+.aboutsec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;
+}
+
+.name{
+    font-family: Geist-thin;
+}
+
+.abouttext{
+    font-size: 40px;
+    word-wrap: break-word;
+    width: 60%;
+}
 
