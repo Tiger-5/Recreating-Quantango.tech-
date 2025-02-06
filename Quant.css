@@ -32,6 +32,12 @@ body{
 li {
     list-style: none;
     text-decoration: none;
+    transition: all 0.2s;
+}
+
+li:hover{
+    color: #01eab2;
+    text-shadow: #01eab2 0px 0px 5px;
 }
 
 li a{
@@ -61,7 +67,7 @@ header{
     border-radius: 23px;
     font-family: Geist-Regular;
     font-size: 14px;
-    transition: all 0.3s;
+    transition: all 0.2s;
     border: none;
 }
 
@@ -143,5 +149,5 @@ header{
 .abouttext{
     font-size: 40px;
     word-wrap: break-word;
-    width: 60%;
+    width: 52%;
 }
